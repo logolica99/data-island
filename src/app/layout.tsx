@@ -2,7 +2,7 @@ import "./globals.css";
 import localFont from "@next/font/local";
 import { Montserrat } from "next/font/google";
 
- const montserrat = Montserrat({
+const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-montserrat",
 });
@@ -57,9 +57,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} ${akrobat.variable}`}>
-        {children}
-      </body>
+      <body className={`${montserrat.variable} ${akrobat.variable}`}>{children}</body>
     </html>
   );
 }

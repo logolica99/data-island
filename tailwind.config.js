@@ -10,8 +10,11 @@ export const content = [
 export const theme = {
   extend: {
     fontFamily: {
-      montserrat: ["var(--font-montserrat)", ...fontFamily.sans],
+      montserrat: ["var(--font-montserrat)"],
       akrobat: ["var(--font-akrobat)", ...fontFamily.sans],
+    },
+    colors: {
+      primaryBlue: "#11577A",
     },
   },
 };
