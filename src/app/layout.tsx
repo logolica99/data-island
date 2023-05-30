@@ -12,35 +12,35 @@ const montserrat = Montserrat({
 const akrobat = localFont({
   src: [
     {
-      path: "fonts/Akrobat/Akrobat-Black.ttf",
+      path: "Fonts/Akrobat/Akrobat-Black.ttf",
       weight: "800",
     },
     {
-      path: "fonts/Akrobat/Akrobat-Bold.ttf",
+      path: "Fonts/Akrobat/Akrobat-Bold.ttf",
       weight: "600",
     },
     {
-      path: "fonts/Akrobat/Akrobat-ExtraBold.ttf",
+      path: "Fonts/Akrobat/Akrobat-ExtraBold.ttf",
       weight: "650",
     },
     {
-      path: "fonts/Akrobat/Akrobat-ExtraLight.ttf",
+      path: "Fonts/Akrobat/Akrobat-ExtraLight.ttf",
       weight: "250",
     },
     {
-      path: "fonts/Akrobat/Akrobat-Light.ttf",
+      path: "Fonts/Akrobat/Akrobat-Light.ttf",
       weight: "300",
     },
     {
-      path: "fonts/Akrobat/Akrobat-Regular.ttf",
+      path: "Fonts/Akrobat/Akrobat-Regular.ttf",
       weight: "400",
     },
     {
-      path: "fonts/Akrobat/Akrobat-SemiBold.ttf",
+      path: "Fonts/Akrobat/Akrobat-SemiBold.ttf",
       weight: "500",
     },
     {
-      path: "fonts/Akrobat/Akrobat-Thin.ttf",
+      path: "Fonts/Akrobat/Akrobat-Thin.ttf",
       weight: "200",
     },
   ],
