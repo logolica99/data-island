@@ -1,4 +1,6 @@
 import "./globals.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import localFont from "@next/font/local";
 import { Montserrat } from "next/font/google";
 
@@ -10,35 +12,35 @@ const montserrat = Montserrat({
 const akrobat = localFont({
   src: [
     {
-      path: "../../public/fonts/Akrobat/Akrobat-Black.ttf",
+      path: "fonts/Akrobat/Akrobat-Black.ttf",
       weight: "800",
     },
     {
-      path: "../../public/fonts/Akrobat/Akrobat-Bold.ttf",
+      path: "fonts/Akrobat/Akrobat-Bold.ttf",
       weight: "600",
     },
     {
-      path: "../../public/fonts/Akrobat/Akrobat-ExtraBold.ttf",
+      path: "fonts/Akrobat/Akrobat-ExtraBold.ttf",
       weight: "650",
     },
     {
-      path: "../../public/fonts/Akrobat/Akrobat-ExtraLight.ttf",
+      path: "fonts/Akrobat/Akrobat-ExtraLight.ttf",
       weight: "250",
     },
     {
-      path: "../../public/fonts/Akrobat/Akrobat-Light.ttf",
+      path: "fonts/Akrobat/Akrobat-Light.ttf",
       weight: "300",
     },
     {
-      path: "../../public/fonts/Akrobat/Akrobat-Regular.ttf",
+      path: "fonts/Akrobat/Akrobat-Regular.ttf",
       weight: "400",
     },
     {
-      path: "../../public/fonts/Akrobat/Akrobat-SemiBold.ttf",
+      path: "fonts/Akrobat/Akrobat-SemiBold.ttf",
       weight: "500",
     },
     {
-      path: "../../public/fonts/Akrobat/Akrobat-Thin.ttf",
+      path: "fonts/Akrobat/Akrobat-Thin.ttf",
       weight: "200",
     },
   ],
@@ -57,7 +59,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} ${akrobat.variable}`}>{children}</body>
+      <body className={`${montserrat.variable} ${akrobat.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }

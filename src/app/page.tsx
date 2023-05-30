@@ -2,6 +2,7 @@ import LargeFeatureCards from "@/app/components/LargeFeatureCards";
 import Title from "./components/Title";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import PrevWorksCarousel from "./components/PrevWorksCarousel";
 
 export default function Home() {
   return (
@@ -35,6 +36,8 @@ export default function Home() {
             "/assets/5-Amazing-Examples-Of-Natural-Language-Processing-NLP-In-Practice-1200x639 1.png"
           }
         />
+        <Title primary={"OUR WORKS"} secondary={"STUFF WE HAVE DONE"} />
+        <PrevWorksCarousel />
       </div>
       <Footer />
     </main>
