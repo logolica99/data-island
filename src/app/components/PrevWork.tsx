@@ -8,9 +8,9 @@ export default function PrevWork({
   title: string;
 }) {
   return (
-    <div>
-      <img src={imageSrc} alt={title} className="w-[400px]" />
-      <h2 className="mt-2 text-xl font-bold">{title}</h2>
+    <div className="bg-white rounded-xl ">
+      <img src={imageSrc} alt={title} className="rounded-ss-xl w-full rounded-se-xl" />
+      <h2 className="mt-2  font-bold p-4 lg:text-2xl">{title}</h2>
     </div>
   );
 }

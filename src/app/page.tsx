@@ -3,6 +3,9 @@ import Title from "./components/Title";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import PrevWorksCarousel from "./components/PrevWorksCarousel";
+import TestimonialCarousel from "./components/TestimonialCarousel";
+import Features from "./components/Features";
+import ContactUs from "./components/ContactUs";
 
 export default function Home() {
   return (
@@ -38,7 +41,15 @@ export default function Home() {
         />
         <Title primary={"OUR WORKS"} secondary={"STUFF WE HAVE DONE"} />
         <PrevWorksCarousel />
+        <Title primary="TESTIMONIAL" secondary="WHAT OUR CLIENTS SAY" />
+        <TestimonialCarousel />
+        <Title
+          primary="WHY US ?"
+          secondary="WHY YOU CHOOSE, THE DATA ISLAND ?"
+        />
+        <Features/>
       </div>
+        <ContactUs/>
       <Footer />
     </main>
   );
